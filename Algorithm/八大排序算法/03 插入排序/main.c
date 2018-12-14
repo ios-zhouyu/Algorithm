@@ -19,7 +19,7 @@ void insertSort(int arr[], int length) {
             int j;
             
             //跳出循环式,就是插入的位置arr[j + 1],需要将插入的值赋值给arr[j + 1]
-            for (j = i - 1; j >= 0 && arr[j] > temp; j--) {//利用反向冒泡排序把最小的移动到前面
+            for (j = i - 1; j >= 0 && arr[j] > temp; j--) {//利用反向冒泡排序把小的移动到前面
                 arr[j + 1] = arr[j];
             }
             //跳出循环时j-1对应的是值arr[j]
