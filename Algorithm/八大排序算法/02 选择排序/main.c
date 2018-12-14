@@ -37,7 +37,7 @@ void selectSort(int arr[], int length) {
                 minIndex = j;
             }
         }
-        //2. 将每次比较的最小元素调整到前面
+        //2. 将每次比较的最小元素调整到第i次的位置
         if (i != minIndex) {
             int temp = arr[i];
             arr[i] = arr[minIndex];
