@@ -44,6 +44,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>04 斐波那契查找.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
 		<key>05 希尔排序.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
