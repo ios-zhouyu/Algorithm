@@ -66,15 +66,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		629B636221C7222500FDC088 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
 		629B636D21C7233800FDC088 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,7 +133,6 @@
 		625580AA21C3A165001B4C2C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		629674B221C505E300DAB2E1 /* 05 希尔排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "05 希尔排序"; sourceTree = BUILT_PRODUCTS_DIR; };
 		629674B421C505E400DAB2E1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		629B636421C7222500FDC088 /* 02 插值查找 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02 插值查找"; sourceTree = BUILT_PRODUCTS_DIR; };
 		629B636F21C7233800FDC088 /* 02 折半查找 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02 折半查找"; sourceTree = BUILT_PRODUCTS_DIR; };
 		629B637121C7233800FDC088 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		629B637A21C7296200FDC088 /* 03 插值查找 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03 插值查找"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,13 +177,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		629674AF21C505E300DAB2E1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		629B636121C7222500FDC088 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -265,7 +248,6 @@
 				62EB3F8E21C6415D006A3705 /* 06 归并排序 */,
 				62EB3F9921C64FC4006A3705 /* 08 基数排序 */,
 				62EB3FA421C65000006A3705 /* 01 顺序查找 */,
-				629B636421C7222500FDC088 /* 02 插值查找 */,
 				629B636F21C7233800FDC088 /* 02 折半查找 */,
 				629B637A21C7296200FDC088 /* 03 插值查找 */,
 			);
@@ -482,23 +464,6 @@
 			productReference = 629674B221C505E300DAB2E1 /* 05 希尔排序 */;
 			productType = "com.apple.product-type.tool";
 		};
-		629B636321C7222500FDC088 /* 02 插值查找 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 629B636A21C7222500FDC088 /* Build configuration list for PBXNativeTarget "02 插值查找" */;
-			buildPhases = (
-				629B636021C7222500FDC088 /* Sources */,
-				629B636121C7222500FDC088 /* Frameworks */,
-				629B636221C7222500FDC088 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "02 插值查找";
-			productName = "02 插值查找";
-			productReference = 629B636421C7222500FDC088 /* 02 插值查找 */;
-			productType = "com.apple.product-type.tool";
-		};
 		629B636E21C7233800FDC088 /* 02 折半查找 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 629B637321C7233800FDC088 /* Build configuration list for PBXNativeTarget "02 折半查找" */;
@@ -625,9 +590,6 @@
 					629674B121C505E300DAB2E1 = {
 						CreatedOnToolsVersion = 10.0;
 					};
-					629B636321C7222500FDC088 = {
-						CreatedOnToolsVersion = 10.0;
-					};
 					629B636E21C7233800FDC088 = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -669,7 +631,6 @@
 				62EB3F8D21C6415D006A3705 /* 06 归并排序 */,
 				62EB3F9821C64FC4006A3705 /* 08 基数排序 */,
 				62EB3FA321C65000006A3705 /* 01 顺序查找 */,
-				629B636321C7222500FDC088 /* 02 插值查找 */,
 				629B636E21C7233800FDC088 /* 02 折半查找 */,
 				629B637921C7296200FDC088 /* 03 插值查找 */,
 			);
@@ -714,13 +675,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				629674B521C505E400DAB2E1 /* main.c in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		629B636021C7222500FDC088 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -976,24 +930,6 @@
 			};
 			name = Release;
 		};
-		629B636821C7222500FDC088 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N88ZLS3WBS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		629B636921C7222500FDC088 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N88ZLS3WBS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		629B637421C7233800FDC088 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1155,15 +1091,6 @@
 			buildConfigurations = (
 				629674B621C505E400DAB2E1 /* Debug */,
 				629674B721C505E400DAB2E1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		629B636A21C7222500FDC088 /* Build configuration list for PBXNativeTarget "02 插值查找" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				629B636821C7222500FDC088 /* Debug */,
-				629B636921C7222500FDC088 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
