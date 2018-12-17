@@ -6,6 +6,8 @@
 //  Copyright © 2018 zhouyu. All rights reserved.
 /*
  要求是有序元素
+ 
+ 时间复杂度: O(log2n)
  */
 
 #include <stdio.h>
